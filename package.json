@@ -1,0 +1,46 @@
+{
+  "name": "enzymed",
+  "version": "0.0.1",
+  "description": "decorators and automatic testing for enzyme",
+  "main": "build/test.js",
+  "bin": {
+    "enzymed": "bin/test.js"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "enzymed example/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Legitcode/renzyme.git"
+  },
+  "keywords": [
+    "enzyme",
+    "testing",
+    "react"
+  ],
+  "author": "Zach Silveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Legitcode/renzyme/issues"
+  },
+  "homepage": "https://github.com/Legitcode/renzyme#readme",
+  "dependencies": {
+    "babel": "^5.8.34",
+    "chai": "^3.4.1",
+    "enzyme": "^1.0.0",
+    "react-addons-test-utils": "^0.14.3"
+  },
+  "peerDependencies": {
+    "react": "0.14.x",
+    "react-dom": "0.14.x",
+    "mocha": "2.3.x"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  }
+}
