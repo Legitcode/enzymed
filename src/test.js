@@ -2,7 +2,7 @@ import React from 'react'
 import { shallow } from 'enzyme'
 import { expect } from 'chai'
 
-export default function test(should, callback){
+function test(should, callback){
   return Target => {
     describe(`${Target.name}: ${should}`, () => {
       it('', next => {
@@ -13,3 +13,5 @@ export default function test(should, callback){
     });
   }
 }
+
+global.test = test

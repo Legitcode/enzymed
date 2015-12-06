@@ -4,7 +4,6 @@ Decorators and test running for [enzyme](https://github.com/airbnb/enzyme).
 
 ```js
 import React from 'react'
-import test from '../src/test'
 
 @test('render the correct text', (wrapper, expect) => {
   expect(wrapper.text()).to.equal('hi')
