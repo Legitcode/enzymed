@@ -20,7 +20,10 @@ export default class Page extends React.Component{
 
 Run tests with `enzymed example/*`
 
+##How it works
+
+This library includes `chai` and `mocha` for you. Makes it super easy to write your tests as you make your components.
+
 ##Todo
 
-- Remove need to import `test`, do it automatically with a babel plugin
 - remove `@test` declaration when building code.
